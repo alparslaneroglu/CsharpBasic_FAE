@@ -36,7 +36,7 @@ namespace Degiskenler
             Console.WriteLine("sByte degiskeni: " + dgsByte);
 
             Console.WriteLine("Int max degiskeni: " + dgIntMax);
-            Console.WriteLine("Int min degiskeni: " + dgIntMin);
+            Console.WriteLine("Int min degviskeni: " + dgIntMin);
             Console.WriteLine("Uint max degiskeni: " + dgUint);
 
             Console.WriteLine("Long max degiskeni: " + dgLongMax);
