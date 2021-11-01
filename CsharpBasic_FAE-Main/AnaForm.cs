@@ -17,5 +17,9 @@ namespace CsharpBasic_FAE_Main
             InitializeComponent();
         }
 
+        private void AnaForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

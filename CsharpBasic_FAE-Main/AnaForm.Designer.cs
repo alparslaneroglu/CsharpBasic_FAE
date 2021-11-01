@@ -31,13 +31,14 @@ namespace CsharpBasic_FAE_Main
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1330, 504);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "AnaForm";
+            this.Text = "AnaSayfa";
+            this.Load += new System.EventHandler(this.AnaForm_Load);
             this.ResumeLayout(false);
 
         }
