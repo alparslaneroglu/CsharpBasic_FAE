@@ -22,6 +22,7 @@ namespace CsharpBasic_FAE_Main
         private void AnaForm_Load(object sender, EventArgs e)
         {
             gbUst.Size = new Size(5, 5);
+            
         }
 
         
