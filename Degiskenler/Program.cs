@@ -6,6 +6,7 @@ namespace Degiskenler
     {
         static void Main(string[] args)
         {
+            
             //PascalCase 
             //camelCase
 
@@ -86,10 +87,10 @@ namespace Degiskenler
             //1.Value Type ---Stackte tutulur.  String Object bir value type olarak geçer.
             /*int aa = 55;
             string aaa = aa.ToString();*/ //Örnek
-            //2.Reference Type ---Stackte ismi tutulur . Heap 'te referenci tutulur.
+                                          //2.Reference Type ---Stackte ismi tutulur . Heap 'te referenci tutulur.
 
-        
-            
+
+
 
 
 

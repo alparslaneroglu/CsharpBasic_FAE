@@ -5,8 +5,4 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CsharpBasic_FAE-Main\CsharpBasic_FAE-Main.csproj" />
-  </ItemGroup>
-
 </Project>
