@@ -12,6 +12,7 @@ namespace CsharpBasic101_Donguler
         public static string[] isimler = { "Oğuz","Kürşat","Burak","Okan","Alparslan" };
         public static int SayiToplami = 0;
         public static int Sayac = 0;
+        public static bool kontrol = true;
         static void Main(string[] args)
         {
             //while Dongusu
@@ -28,6 +29,10 @@ namespace CsharpBasic101_Donguler
             Console.WriteLine("*******************************");
             Console.WriteLine(" 1-: For Dongusu \n 2-: While Dongusu \n 3-: DoWhile Dongusu \n 4-: ForEach Dongusu");
             Console.WriteLine("*******************************");
+           
+            do 
+            { 
+
             Console.Write("Seciminizi Giriniz:");
             int secim = 0;
 
@@ -44,27 +49,39 @@ namespace CsharpBasic101_Donguler
                 Console.Write("Nümerik Bir Deger Giriniz..");
             }
 
-            if (secim==1)
-            {
-                ForDongusu();
-                ToplamYaz();    
-            }
-            else if (secim==2)
-            {
-                WhileDongusu();
-            }
-            else if (secim==3)
-            {
-                DoWhileDongusu();
-                ToplamYaz();
-            }
-            else if (secim==4)
-            {
-                ForEachDongusu();
-                ToplamYaz();
-            }
 
-            Console.WriteLine("Devam Etmek İstiyor musunuz = E/H");
+            
+            
+                switch (secim)
+                {
+                    case 1:
+                        ForDongusu();
+                        ToplamYaz();
+                        break;
+                    case 2:
+                        WhileDongusu();
+                        break;
+                    case 3:
+                        DoWhileDongusu();
+                        ToplamYaz();
+                        break;
+                    case 4:
+                        ForEachDongusu();
+                        ToplamYaz();
+                        break;
+                }
+                Console.Write("Devam etmek istiyorsaniz 'e' ye basin :");
+                string devamMi = "";
+                devamMi = Console.ReadLine();
+                if (devamMi != "e")
+                {
+                    Console.WriteLine("Güle güle");
+                    kontrol = false;
+                   // break;  kontrol=false ile aynı görevi görüyor.While true olmadığını anlayınca döngüyü bitiriyor.
+                }
+            } while (kontrol==true);
+
+            
             Console.ReadLine();
         }
 
@@ -87,6 +104,7 @@ namespace CsharpBasic101_Donguler
                 Console.WriteLine(isimler[Sayac]);
                 Sayac++;
             }
+            Sayac = 0;
         }
 
         static void DoWhileDongusu()
@@ -98,6 +116,7 @@ namespace CsharpBasic101_Donguler
                 Sayac++;
 
             } while (Sayac < sayilar.Length);
+            Sayac = 0;
         }
 
         static void ToplamYaz()
@@ -105,6 +124,7 @@ namespace CsharpBasic101_Donguler
             Console.WriteLine("*******************************");
             Console.WriteLine("Toplam = " + SayiToplami);
             Console.WriteLine("*******************************");
+            SayiToplami = 0;
         }
 
         static void ForEachDongusu()
@@ -113,6 +133,7 @@ namespace CsharpBasic101_Donguler
             {
                 Console.WriteLine(sayi);
                 SayiToplami += sayi;
+                
             }
         }
 

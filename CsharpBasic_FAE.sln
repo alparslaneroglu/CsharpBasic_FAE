@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Degiskenler", "Degiskenler\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBasic101-Donguler", "CsharpBasic101-Donguler\CsharpBasic101-Donguler.csproj", "{673DB571-0E24-4F21-B59E-2862BA78A3A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBasic101-Diziler", "CsharpBasic101-Diziler\CsharpBasic101-Diziler.csproj", "{29486C0F-5BE2-4CE5-AFAD-2981E1DF0E66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{673DB571-0E24-4F21-B59E-2862BA78A3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673DB571-0E24-4F21-B59E-2862BA78A3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673DB571-0E24-4F21-B59E-2862BA78A3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29486C0F-5BE2-4CE5-AFAD-2981E1DF0E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29486C0F-5BE2-4CE5-AFAD-2981E1DF0E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29486C0F-5BE2-4CE5-AFAD-2981E1DF0E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29486C0F-5BE2-4CE5-AFAD-2981E1DF0E66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
