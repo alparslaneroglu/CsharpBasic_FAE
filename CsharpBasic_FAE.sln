@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBasic101-Diziler", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBasic101-DateTime", "CsharpBasic101-DateTime\CsharpBasic101-DateTime.csproj", "{703253A1-7E11-4DF9-AE7A-748E4FBF92B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBasic101-MathFunction", "CsharpBasic101-MathFunction\CsharpBasic101-MathFunction.csproj", "{8A4A7054-EFA8-4CE9-980B-DC109A41074C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{703253A1-7E11-4DF9-AE7A-748E4FBF92B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{703253A1-7E11-4DF9-AE7A-748E4FBF92B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{703253A1-7E11-4DF9-AE7A-748E4FBF92B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4A7054-EFA8-4CE9-980B-DC109A41074C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4A7054-EFA8-4CE9-980B-DC109A41074C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4A7054-EFA8-4CE9-980B-DC109A41074C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4A7054-EFA8-4CE9-980B-DC109A41074C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
