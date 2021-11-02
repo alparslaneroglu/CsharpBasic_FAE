@@ -102,19 +102,6 @@ namespace CsharpBasic_FAE_Main
             pnl7.Visible = false;
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            gbUst.Text = btn5.Text;
-            ToggleBtn();
-            pnl1.Visible = true;
-            pnl2.Visible = false;
-            pnl3.Visible = false;
-            pnl4.Visible = false;
-            pnl5.Visible = true;
-            pnl6.Visible = false;
-            pnl7.Visible = false;
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             gbUst.Text = btn6.Text;
@@ -150,7 +137,41 @@ namespace CsharpBasic_FAE_Main
 
         }
 
-       
+
         #endregion
+
+        private void btnDegiskenler_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:\Users\Web ve Mobil Prog\source\repos\CsharpBasic_FAE\Degiskenler\bin\Debug\net5.0\Degiskenler.exe");
+
+        }
+
+        private void btnDonguler_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:\Users\Web ve Mobil Prog\source\repos\CsharpBasic_FAE\CsharpBasic101-Donguler\bin\Debug\CsharpBasic101-Donguler");
+        }
+
+        private void btnDiziler_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:\Users\Web ve Mobil Prog\source\repos\CsharpBasic_FAE\CsharpBasic101-Diziler\bin\Debug\CsharpBasic101-Diziler");
+        }
+
+        private void btnDateTime_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:\Users\Web ve Mobil Prog\source\repos\CsharpBasic_FAE\CsharpBasic101-DateTime\bin\Debug\CsharpBasic101-DateTime");
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            gbUst.Text = btn5.Text;
+            ToggleBtn();
+            pnl1.Visible = false;
+            pnl2.Visible = false;
+            pnl3.Visible = false;
+            pnl4.Visible = false;
+            pnl5.Visible = true;
+            pnl6.Visible = false;
+            pnl7.Visible = false;
+        }
     }
 }

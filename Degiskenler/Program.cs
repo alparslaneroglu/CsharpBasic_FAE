@@ -90,7 +90,7 @@ namespace Degiskenler
                                           //2.Reference Type ---Stackte ismi tutulur . Heap 'te referenci tutulur.
 
 
-
+            Console.ReadKey();
 
 
 

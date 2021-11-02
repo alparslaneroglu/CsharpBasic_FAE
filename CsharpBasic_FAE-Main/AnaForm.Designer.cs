@@ -45,6 +45,11 @@ namespace CsharpBasic_FAE_Main
             this.pnl3 = new System.Windows.Forms.Panel();
             this.pnl2 = new System.Windows.Forms.Panel();
             this.pnl1 = new System.Windows.Forms.Panel();
+            this.btnDateTime = new System.Windows.Forms.Button();
+            this.btnDiziler = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnDonguler = new System.Windows.Forms.Button();
+            this.btnDegiskenler = new System.Windows.Forms.Button();
             this.btnHello = new System.Windows.Forms.Button();
             this.pnlUst.SuspendLayout();
             this.gbUst.SuspendLayout();
@@ -66,7 +71,6 @@ namespace CsharpBasic_FAE_Main
             this.pnlUst.Name = "pnlUst";
             this.pnlUst.Size = new System.Drawing.Size(1392, 70);
             this.pnlUst.TabIndex = 0;
-            
             // 
             // btn7
             // 
@@ -99,7 +103,7 @@ namespace CsharpBasic_FAE_Main
             this.btn5.TabIndex = 4;
             this.btn5.Text = "btn5";
             this.btn5.UseVisualStyleBackColor = false;
-            this.btn5.Click += new System.EventHandler(this.button3_Click);
+            this.btn5.Click += new System.EventHandler(this.button5_Click);
             // 
             // btn4
             // 
@@ -163,7 +167,6 @@ namespace CsharpBasic_FAE_Main
             this.gbUst.TabStop = false;
             this.gbUst.Text = "*******";
             this.gbUst.UseWaitCursor = true;
-            
             // 
             // pnl7
             // 
@@ -234,6 +237,11 @@ namespace CsharpBasic_FAE_Main
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pnl1.Controls.Add(this.btnDateTime);
+            this.pnl1.Controls.Add(this.btnDiziler);
+            this.pnl1.Controls.Add(this.button1);
+            this.pnl1.Controls.Add(this.btnDonguler);
+            this.pnl1.Controls.Add(this.btnDegiskenler);
             this.pnl1.Controls.Add(this.btnHello);
             this.pnl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl1.Location = new System.Drawing.Point(3, 23);
@@ -243,6 +251,60 @@ namespace CsharpBasic_FAE_Main
             this.pnl1.UseWaitCursor = true;
             this.pnl1.Visible = false;
             // 
+            // btnDateTime
+            // 
+            this.btnDateTime.Location = new System.Drawing.Point(610, 15);
+            this.btnDateTime.Name = "btnDateTime";
+            this.btnDateTime.Size = new System.Drawing.Size(142, 29);
+            this.btnDateTime.TabIndex = 0;
+            this.btnDateTime.Text = "DateTime";
+            this.btnDateTime.UseVisualStyleBackColor = true;
+            this.btnDateTime.UseWaitCursor = true;
+            this.btnDateTime.Click += new System.EventHandler(this.btnDateTime_Click);
+            // 
+            // btnDiziler
+            // 
+            this.btnDiziler.Location = new System.Drawing.Point(453, 15);
+            this.btnDiziler.Name = "btnDiziler";
+            this.btnDiziler.Size = new System.Drawing.Size(142, 29);
+            this.btnDiziler.TabIndex = 0;
+            this.btnDiziler.Text = "Diziler";
+            this.btnDiziler.UseVisualStyleBackColor = true;
+            this.btnDiziler.UseWaitCursor = true;
+            this.btnDiziler.Click += new System.EventHandler(this.btnDiziler_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(462, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(142, 29);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Donguler";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseWaitCursor = true;
+            // 
+            // btnDonguler
+            // 
+            this.btnDonguler.Location = new System.Drawing.Point(305, 15);
+            this.btnDonguler.Name = "btnDonguler";
+            this.btnDonguler.Size = new System.Drawing.Size(142, 29);
+            this.btnDonguler.TabIndex = 0;
+            this.btnDonguler.Text = "Donguler";
+            this.btnDonguler.UseVisualStyleBackColor = true;
+            this.btnDonguler.UseWaitCursor = true;
+            this.btnDonguler.Click += new System.EventHandler(this.btnDonguler_Click);
+            // 
+            // btnDegiskenler
+            // 
+            this.btnDegiskenler.Location = new System.Drawing.Point(157, 15);
+            this.btnDegiskenler.Name = "btnDegiskenler";
+            this.btnDegiskenler.Size = new System.Drawing.Size(142, 29);
+            this.btnDegiskenler.TabIndex = 0;
+            this.btnDegiskenler.Text = "Degiskenler";
+            this.btnDegiskenler.UseVisualStyleBackColor = true;
+            this.btnDegiskenler.UseWaitCursor = true;
+            this.btnDegiskenler.Click += new System.EventHandler(this.btnDegiskenler_Click);
+            // 
             // btnHello
             // 
             this.btnHello.Location = new System.Drawing.Point(9, 15);
@@ -251,6 +313,7 @@ namespace CsharpBasic_FAE_Main
             this.btnHello.TabIndex = 0;
             this.btnHello.Text = "Hello World!";
             this.btnHello.UseVisualStyleBackColor = true;
+            this.btnHello.UseWaitCursor = true;
             this.btnHello.Click += new System.EventHandler(this.btnHello_Click);
             // 
             // AnaForm
@@ -289,6 +352,11 @@ namespace CsharpBasic_FAE_Main
         private System.Windows.Forms.Panel pnl2;
         private System.Windows.Forms.Panel pnl1;
         private System.Windows.Forms.Button btnHello;
+        private System.Windows.Forms.Button btnDegiskenler;
+        private System.Windows.Forms.Button btnDateTime;
+        private System.Windows.Forms.Button btnDiziler;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDonguler;
     }
 }
 
