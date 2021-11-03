@@ -173,5 +173,23 @@ namespace CsharpBasic_FAE_Main
             pnl6.Visible = false;
             pnl7.Visible = false;
         }
+
+        private void btnİlkFormum_Click(object sender, EventArgs e)
+        {
+            ilkFormum frm = new ilkFormum(); // frm adında bir nesne oluşuyor.
+            frm.MdiParent = Application.OpenForms["AnaForm"] as AnaForm;  // Frm child oldu AnaForm 'da Parent oldu.Parent yapıları kendi içlerinde childleri barındırabilir.
+            frm.WindowState = FormWindowState.Maximized;// İkinci acılan formu onun altında tam sayfa yapıyor.
+            frm.Show();
+        }
+
+        private void btnHedefFormum_Click(object sender, EventArgs e)
+        {
+            HedefFormum frmHedef = new HedefFormum(); // Referans tutuluyor. Hedef formun bilgilerine erişiliyor.Burda işi yapan new komutu.
+            frmHedef.MdiParent = Form.ActiveForm; // frm.MdiParent = Application.OpenForms["AnaForm"] as AnaForm; Aynı işi yapıyor.İsimler farklı
+            frmHedef.WindowState = FormWindowState.Maximized;
+            frmHedef.Show();
+
+
+        }
     }
 }

@@ -38,12 +38,6 @@ namespace CsharpBasic_FAE_Main
             this.btnForm = new System.Windows.Forms.Button();
             this.btnConsole = new System.Windows.Forms.Button();
             this.gbUst = new System.Windows.Forms.GroupBox();
-            this.pnl7 = new System.Windows.Forms.Panel();
-            this.pnl6 = new System.Windows.Forms.Panel();
-            this.pnl5 = new System.Windows.Forms.Panel();
-            this.pnl4 = new System.Windows.Forms.Panel();
-            this.pnl3 = new System.Windows.Forms.Panel();
-            this.pnl2 = new System.Windows.Forms.Panel();
             this.pnl1 = new System.Windows.Forms.Panel();
             this.btnDateTime = new System.Windows.Forms.Button();
             this.btnDiziler = new System.Windows.Forms.Button();
@@ -51,9 +45,19 @@ namespace CsharpBasic_FAE_Main
             this.btnDonguler = new System.Windows.Forms.Button();
             this.btnDegiskenler = new System.Windows.Forms.Button();
             this.btnHello = new System.Windows.Forms.Button();
+            this.pnl7 = new System.Windows.Forms.Panel();
+            this.pnl6 = new System.Windows.Forms.Panel();
+            this.pnl5 = new System.Windows.Forms.Panel();
+            this.pnl4 = new System.Windows.Forms.Panel();
+            this.pnl3 = new System.Windows.Forms.Panel();
+            this.pnl2 = new System.Windows.Forms.Panel();
+            this.btnHedefFormum = new System.Windows.Forms.Button();
+            this.btnİlkFormum = new System.Windows.Forms.Button();
+            this.btnVeriGonderProp = new System.Windows.Forms.Button();
             this.pnlUst.SuspendLayout();
             this.gbUst.SuspendLayout();
             this.pnl1.SuspendLayout();
+            this.pnl2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlUst
@@ -152,13 +156,13 @@ namespace CsharpBasic_FAE_Main
             // gbUst
             // 
             this.gbUst.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.gbUst.Controls.Add(this.pnl1);
             this.gbUst.Controls.Add(this.pnl7);
             this.gbUst.Controls.Add(this.pnl6);
             this.gbUst.Controls.Add(this.pnl5);
             this.gbUst.Controls.Add(this.pnl4);
             this.gbUst.Controls.Add(this.pnl3);
             this.gbUst.Controls.Add(this.pnl2);
-            this.gbUst.Controls.Add(this.pnl1);
             this.gbUst.Dock = System.Windows.Forms.DockStyle.Top;
             this.gbUst.Location = new System.Drawing.Point(0, 70);
             this.gbUst.Name = "gbUst";
@@ -167,72 +171,6 @@ namespace CsharpBasic_FAE_Main
             this.gbUst.TabStop = false;
             this.gbUst.Text = "*******";
             this.gbUst.UseWaitCursor = true;
-            // 
-            // pnl7
-            // 
-            this.pnl7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.pnl7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl7.Location = new System.Drawing.Point(3, 323);
-            this.pnl7.Name = "pnl7";
-            this.pnl7.Size = new System.Drawing.Size(1386, 50);
-            this.pnl7.TabIndex = 9;
-            this.pnl7.UseWaitCursor = true;
-            this.pnl7.Visible = false;
-            // 
-            // pnl6
-            // 
-            this.pnl6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pnl6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl6.Location = new System.Drawing.Point(3, 273);
-            this.pnl6.Name = "pnl6";
-            this.pnl6.Size = new System.Drawing.Size(1386, 50);
-            this.pnl6.TabIndex = 8;
-            this.pnl6.UseWaitCursor = true;
-            this.pnl6.Visible = false;
-            // 
-            // pnl5
-            // 
-            this.pnl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.pnl5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl5.Location = new System.Drawing.Point(3, 223);
-            this.pnl5.Name = "pnl5";
-            this.pnl5.Size = new System.Drawing.Size(1386, 50);
-            this.pnl5.TabIndex = 7;
-            this.pnl5.UseWaitCursor = true;
-            this.pnl5.Visible = false;
-            // 
-            // pnl4
-            // 
-            this.pnl4.BackColor = System.Drawing.Color.Aqua;
-            this.pnl4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl4.Location = new System.Drawing.Point(3, 173);
-            this.pnl4.Name = "pnl4";
-            this.pnl4.Size = new System.Drawing.Size(1386, 50);
-            this.pnl4.TabIndex = 6;
-            this.pnl4.UseWaitCursor = true;
-            this.pnl4.Visible = false;
-            // 
-            // pnl3
-            // 
-            this.pnl3.BackColor = System.Drawing.Color.Lime;
-            this.pnl3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl3.Location = new System.Drawing.Point(3, 123);
-            this.pnl3.Name = "pnl3";
-            this.pnl3.Size = new System.Drawing.Size(1386, 50);
-            this.pnl3.TabIndex = 4;
-            this.pnl3.UseWaitCursor = true;
-            this.pnl3.Visible = false;
-            // 
-            // pnl2
-            // 
-            this.pnl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.pnl2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl2.Location = new System.Drawing.Point(3, 73);
-            this.pnl2.Name = "pnl2";
-            this.pnl2.Size = new System.Drawing.Size(1386, 50);
-            this.pnl2.TabIndex = 3;
-            this.pnl2.UseWaitCursor = true;
-            this.pnl2.Visible = false;
             // 
             // pnl1
             // 
@@ -244,7 +182,7 @@ namespace CsharpBasic_FAE_Main
             this.pnl1.Controls.Add(this.btnDegiskenler);
             this.pnl1.Controls.Add(this.btnHello);
             this.pnl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl1.Location = new System.Drawing.Point(3, 23);
+            this.pnl1.Location = new System.Drawing.Point(3, 323);
             this.pnl1.Name = "pnl1";
             this.pnl1.Size = new System.Drawing.Size(1386, 50);
             this.pnl1.TabIndex = 2;
@@ -316,6 +254,108 @@ namespace CsharpBasic_FAE_Main
             this.btnHello.UseWaitCursor = true;
             this.btnHello.Click += new System.EventHandler(this.btnHello_Click);
             // 
+            // pnl7
+            // 
+            this.pnl7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.pnl7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnl7.Location = new System.Drawing.Point(3, 273);
+            this.pnl7.Name = "pnl7";
+            this.pnl7.Size = new System.Drawing.Size(1386, 50);
+            this.pnl7.TabIndex = 9;
+            this.pnl7.UseWaitCursor = true;
+            this.pnl7.Visible = false;
+            // 
+            // pnl6
+            // 
+            this.pnl6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pnl6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnl6.Location = new System.Drawing.Point(3, 223);
+            this.pnl6.Name = "pnl6";
+            this.pnl6.Size = new System.Drawing.Size(1386, 50);
+            this.pnl6.TabIndex = 8;
+            this.pnl6.UseWaitCursor = true;
+            this.pnl6.Visible = false;
+            // 
+            // pnl5
+            // 
+            this.pnl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.pnl5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnl5.Location = new System.Drawing.Point(3, 173);
+            this.pnl5.Name = "pnl5";
+            this.pnl5.Size = new System.Drawing.Size(1386, 50);
+            this.pnl5.TabIndex = 7;
+            this.pnl5.UseWaitCursor = true;
+            this.pnl5.Visible = false;
+            // 
+            // pnl4
+            // 
+            this.pnl4.BackColor = System.Drawing.Color.Aqua;
+            this.pnl4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnl4.Location = new System.Drawing.Point(3, 123);
+            this.pnl4.Name = "pnl4";
+            this.pnl4.Size = new System.Drawing.Size(1386, 50);
+            this.pnl4.TabIndex = 6;
+            this.pnl4.UseWaitCursor = true;
+            this.pnl4.Visible = false;
+            // 
+            // pnl3
+            // 
+            this.pnl3.BackColor = System.Drawing.Color.Lime;
+            this.pnl3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnl3.Location = new System.Drawing.Point(3, 73);
+            this.pnl3.Name = "pnl3";
+            this.pnl3.Size = new System.Drawing.Size(1386, 50);
+            this.pnl3.TabIndex = 4;
+            this.pnl3.UseWaitCursor = true;
+            this.pnl3.Visible = false;
+            // 
+            // pnl2
+            // 
+            this.pnl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.pnl2.Controls.Add(this.btnVeriGonderProp);
+            this.pnl2.Controls.Add(this.btnHedefFormum);
+            this.pnl2.Controls.Add(this.btnİlkFormum);
+            this.pnl2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnl2.Location = new System.Drawing.Point(3, 23);
+            this.pnl2.Name = "pnl2";
+            this.pnl2.Size = new System.Drawing.Size(1386, 50);
+            this.pnl2.TabIndex = 3;
+            this.pnl2.UseWaitCursor = true;
+            this.pnl2.Visible = false;
+            // 
+            // btnHedefFormum
+            // 
+            this.btnHedefFormum.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnHedefFormum.Location = new System.Drawing.Point(124, 15);
+            this.btnHedefFormum.Name = "btnHedefFormum";
+            this.btnHedefFormum.Size = new System.Drawing.Size(109, 29);
+            this.btnHedefFormum.TabIndex = 1;
+            this.btnHedefFormum.Text = "Hedef Formum";
+            this.btnHedefFormum.UseVisualStyleBackColor = true;
+            this.btnHedefFormum.UseWaitCursor = true;
+            this.btnHedefFormum.Click += new System.EventHandler(this.btnHedefFormum_Click);
+            // 
+            // btnİlkFormum
+            // 
+            this.btnİlkFormum.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnİlkFormum.Location = new System.Drawing.Point(9, 15);
+            this.btnİlkFormum.Name = "btnİlkFormum";
+            this.btnİlkFormum.Size = new System.Drawing.Size(109, 29);
+            this.btnİlkFormum.TabIndex = 1;
+            this.btnİlkFormum.Text = "İlk Formum";
+            this.btnİlkFormum.UseVisualStyleBackColor = true;
+            this.btnİlkFormum.UseWaitCursor = true;
+            this.btnİlkFormum.Click += new System.EventHandler(this.btnİlkFormum_Click);
+            // 
+            // btnVeriGonderProp
+            // 
+            this.btnVeriGonderProp.Location = new System.Drawing.Point(248, 15);
+            this.btnVeriGonderProp.Name = "btnVeriGonderProp";
+            this.btnVeriGonderProp.Size = new System.Drawing.Size(217, 29);
+            this.btnVeriGonderProp.TabIndex = 2;
+            this.btnVeriGonderProp.Text = "Veri Gönder(Prop)";
+            this.btnVeriGonderProp.UseVisualStyleBackColor = true;
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -323,12 +363,15 @@ namespace CsharpBasic_FAE_Main
             this.ClientSize = new System.Drawing.Size(1392, 753);
             this.Controls.Add(this.gbUst);
             this.Controls.Add(this.pnlUst);
+            this.IsMdiContainer = true;
             this.Name = "AnaForm";
             this.Text = "AnaSayfa";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AnaForm_Load);
             this.pnlUst.ResumeLayout(false);
             this.gbUst.ResumeLayout(false);
             this.pnl1.ResumeLayout(false);
+            this.pnl2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -357,6 +400,9 @@ namespace CsharpBasic_FAE_Main
         private System.Windows.Forms.Button btnDiziler;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnDonguler;
+        private System.Windows.Forms.Button btnİlkFormum;
+        private System.Windows.Forms.Button btnHedefFormum;
+        private System.Windows.Forms.Button btnVeriGonderProp;
     }
 }
 
