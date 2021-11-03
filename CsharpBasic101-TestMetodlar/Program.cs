@@ -16,7 +16,7 @@ namespace CsharpBasic101_TestMetodlar
             Console.WriteLine("*******************************");
             Console.WriteLine(" 1-: Karenin Alanı \n 2-: Dikdörtgenin Alanı \n 3-: Çemberin Alanı \n");
             Console.WriteLine("*******************************");
-
+        
             do
             {
                 Console.Write("Seciminizi Giriniz:");
@@ -39,7 +39,6 @@ namespace CsharpBasic101_TestMetodlar
                     {
                         case 1:
                             KareAlanHesapla();
-
                             break;
                         case 2:
                             DikdörgenAlanHesapla();
@@ -56,6 +55,7 @@ namespace CsharpBasic101_TestMetodlar
                     Console.WriteLine("Bir sayı giriniz.");
                     
                 }
+               
                 Console.Write("Devam etmek istiyorsaniz 'e' ye basin :");
                 string devamMi = "";
                 devamMi = Console.ReadLine();
@@ -67,7 +67,7 @@ namespace CsharpBasic101_TestMetodlar
                 } 
             } while (kontrol==true);
 
-
+            
             Console.ReadKey();
 
         }

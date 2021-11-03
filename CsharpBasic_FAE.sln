@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBasic101-Metodlar", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBasic101-TestMetodlar", "CsharpBasic101-TestMetodlar\CsharpBasic101-TestMetodlar.csproj", "{236696BC-5299-4E03-8B2C-A0C78E697208}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBasic101-AdamAsmacaOyunu", "CsharpBasic101-AdamAsmacaOyunu\CsharpBasic101-AdamAsmacaOyunu.csproj", "{B1EF76F8-CE41-4EF7-8F75-4A4D5A32CA44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{236696BC-5299-4E03-8B2C-A0C78E697208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{236696BC-5299-4E03-8B2C-A0C78E697208}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{236696BC-5299-4E03-8B2C-A0C78E697208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EF76F8-CE41-4EF7-8F75-4A4D5A32CA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EF76F8-CE41-4EF7-8F75-4A4D5A32CA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EF76F8-CE41-4EF7-8F75-4A4D5A32CA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EF76F8-CE41-4EF7-8F75-4A4D5A32CA44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
